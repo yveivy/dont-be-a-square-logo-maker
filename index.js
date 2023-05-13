@@ -21,8 +21,37 @@ function writeToFile(fileName, answers){
     }
     svgString += `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>`;
     svgString += "</svg>";
-};
+
 
 fs.writeFile(fileName, svgString, (err) => {
     err ? console.log(err) : console.log("Generated logo.svg")
 });
+};
+
+function promptUser() {
+
+    inquirer
+        .prompt ([
+            {
+                type: 'list',
+                name: 'shape',
+                message: 'How would you like your logo to take shape?',
+                choices: ['Triangle', 'Square', 'Circle'],
+              },
+              {
+                type: 'input',
+                name: 'text',
+                message: 'Please provide 3 characters you would like to display on your logo.',
+              },
+              {
+                type: 'input',
+                name: 'textColor',
+                message: 'Please enter a color OR hexadecimal number for the text color of your logo.',
+              },
+              {
+                type: 'input',
+                name: 'shapeColor',
+                message: 'Please enter a color OR hexadecimal number for the text color of your logo.',
+              },
+        ])
+}
