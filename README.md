@@ -4,6 +4,7 @@
 
 This is a nifty little app that runs as a Node.js command-line application. It takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file. 
 
+
 ![alt text](logo.svg)
 
 <details> 
@@ -16,6 +17,7 @@ This is a nifty little app that runs as a Node.js command-line application. It t
 ```
 
 </details>
+
 
 ![alt text](demo-dont-be-a-square-logo-maker.webm)
 
@@ -34,4 +36,4 @@ To initialize this application, install Node.js and navigate to the project dire
 If you would like additional information, please contact Yevette Hunt
 My GitHub username is yveivy
 
-https://github.com/yveivy/command-script-doc-wiz/blob/main/demo-dont-be-a-square-logo-maker.webm
+https://github.com/yveivy/dont-be-a-square-logo-maker/blob/main/demo-dont-be-a-square-logo-maker.webm
