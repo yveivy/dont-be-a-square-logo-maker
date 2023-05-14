@@ -64,4 +64,4 @@ To initialize this application, install Node.js and navigate to the project dire
 If you would like additional information, please contact Yevette Hunt.
 My GitHub username is yveivy
 
-https://github.com/yveivy/dont-be-a-square-logo-maker/blob/main/demo-dont-be-a-square-logo-maker.webm
+https://github.com/yveivy/dont-be-a-square-logo-maker/blob/main/assets/demo-dont-be-a-square-logo-maker.webm
