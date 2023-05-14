@@ -19,9 +19,9 @@ This is a nifty little app that runs as a Node.js command-line application. It t
 </details>
 
 
-![alt text](demo-dont-be-a-square-logo-maker.webm)
+![alt text](./assets/demo-dont-be-a-square-logo-maker.webm)
 
-![alt text](demo-dont-be-a-square-logo-maker-test-screencapture.jpg)
+![alt text](./assets/dont-be-a-square-logo-maker-test-screencapture.jpg)
 
 ## Installation:
 
